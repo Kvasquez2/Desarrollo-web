@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Lato:wght@300&family=Noto+Sans+JP:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Lato:wght@300&family=Noto+Sans+JP:wght@200&family=Noto+Sans+Siddham&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #0A4D68;
+}
+.repositorio{
+    text-align: center;
+    flex-direction: row;
+}
+.contenedorpadre{
+    text-align: center;
+    align-items: center;
+    
+}
+.titulo-principal{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 40px;
+}
+.titulo-secundario{
+    font-family: 'Darumadrop One', cursive;
+    color: #fff;
+    font-size: 35px;
+    width: 400px;
+}
+.titulo-movimientos{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    width: 420px;
+}
+.titulo-movi-posi{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #5D9C59;
+    font-size: 23px;
+
+}
+.titulo-movi-nega{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #D21312;
+    font-size: 23px;
+
+}
+.info{
+    font-family: 'Noto Sans Siddham', sans-serif;
+    color: white;
+    font-size: 28px;
+}
+

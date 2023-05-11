@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    margin: 15px;
+    height: 50px;
+}
+.barra{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: #FC4F00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+ .navbar a:hover,
+ .navbar a.active{
+    color: #fff;
+    font-size: 16px;
+ }
+
+.logo{
+    position: relative;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 50px;
+}
+
+.sau{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 4vh;
+    margin-left: 30px;
+    width: auto;
+    height: auto;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box:hover{
+    transform: scale(0.9);
+}
+ .box-container .box {
+    height: 10rem;
+    width: 75rem;
+    background: white;
+    text-align: left;
+    border-radius: 1rem;
+    background: #FC4F00;
+    margin: 0.6rem;   
+}
+.box-container .box span {
+    display: flex;
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+    line-height: 0.9rem;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 1.1rem;
+}
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}

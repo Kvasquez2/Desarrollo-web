@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fff;
+}
+
+.Repositorio{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.contenedor{
+    text-align: center;
+    width: 910px;
+    height: 110px;
+    margin-left: 200px;
+    margin-block: 20px;
+    border: 2px solid black;
+    border-radius: 4%;
+}
+.titulo{
+    font-family: 'Noto Sans', sans-serif;
+    justify-content: space-between;
+    font-size: 42px;
+    text-align: center;
+    color: rgb(46, 10, 209);
+    height: 50px;
+}
+.coment .line{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+    height: 15px;
+}
+.time{
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 10px;
+    color: #BFCCB5;
+    height: 15px;
+}
+.come{
+    margin-left: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: black;
+    width: 800px;
+    height: 48px;
+}
+.span{
+    margin-left: 100px;
+    height: 25px;
+    width: 250px;
+}

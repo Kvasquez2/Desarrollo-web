@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+.head { 
+    /*Estilos de la barra de infomacion*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background: #FFF;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0.1rem .2rem 2rem black;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 50px;
+    font-size: 26px;
+}
+
+.logo {/*Estilos de el logo*/
+    margin-left: 30px;
+    font-size: 18px;
+} 
+.sau{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10vh;
+    width: 1200px;
+    height: 400px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+/*
+.box-container .box h2{
+    font-size: 25px;
+}*/
+/* Estilos de los colores retro*/
+.icon-ti-retro{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.icon-contrast{
+    margin: 11px;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 20px;
+
+}
+.ti-retro{
+    margin: 12px;
+    margin-left: -2px ;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 20px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box .retro-c1 {
+    display: flex;
+    color: #8B1874;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.box .retro-c2 {
+    display: flex;
+    color: #b71375;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.box .retro-c3 {
+    display: flex;
+    color: #408E91;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.box .retro-c4 {
+    display: flex;
+    color: #f79540;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.box .retro-c5 {
+    display: flex;
+    color:#98d8aa;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Fin del los estilos de los colores retro*/
+
+/* Estilos de los colores sea*/
+.icon-ti-sea{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.icon-contrast{
+    margin: 11px;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 20px;
+}
+.ti-sea{
+    margin: 12px;
+    margin-left: -2px ;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 20px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box .sea-c1 {
+    display: flex;
+    color: #0A4D68;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+}
+.box .sea-c2 {
+    display: flex;
+    color: #088395;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+}
+.box .sea-c3 {
+    display: flex;
+    color: #569DAA;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+}
+.box .sea-c4 {
+    display: flex;
+    color: #8294C4;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+}
+.box .sea-c5 {
+    display: flex;
+    color:#19A7CE;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+}
+/* Fin del los estilos de los colores sea*/
+
+/* Estilos de los colores gradient*/
+
+.icon-ti-grad{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.icon-contrast{
+    margin: 11px;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 20px;
+
+}
+.ti-grad{
+    margin: 8px;
+    margin-left: -2px ;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 20px;
+}
+
+.box .grad-c1 {
+    display: flex;
+    color: #D6E8DB;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+}
+.box .grad-c2 {
+    display: flex;
+    color: #AAC8A7;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+}
+.box .grad-c3 {
+    display: flex;
+    color: #C1D0B5;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+}
+.box .grad-c4 {
+    display: flex;
+    color: #DEDEA7;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+}
+.box .grad-c5 {
+    display: flex;
+    color:#99A98F;
+    margin: 15px;
+    margin-left: 40px ;
+    width: 190px;
+    height: 20px;
+}
+/* Fin del los estilos de los colores gradient*/
+
+
+
+
+.box-container .box {
+    height: 16rem;
+    width: 17rem;
+    background: white;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .2rem 2rem black;
+    margin: 1.5rem;   
+}
+.box-container .box span {
+    display: flex;
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+    line-height: 0.9rem;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 1.1rem;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+

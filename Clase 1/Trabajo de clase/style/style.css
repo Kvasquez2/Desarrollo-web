@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.head { /*Estilos de la barra de diseños*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {/*Estilos de el logo*/
+    margin-left: 30px;
+}
+.logo a {/*Estilos de el logo*/
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {/*Estilos de la barra de informacion*/
+    display: block;
+    padding: 40px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.navbar a:hover {/*Estilos cuando se abre la informacion en la barra*/
+    background: gray;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+
+
+
+*/
+.infor {/*Estilos de el cuadro de informacion*/
+    justify-content: center;
+    padding: 18vh;
+    height: 6rem;
+    width: 29rem;
+    background: #fff;
+}
+.info{/*Estilos del texto principal (titulo)*/
+    justify-content: right;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: black;
+    padding: 0 10px;
+}
+.infoa{/*Estilos de texto de informacion*/
+    justify-content: left;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: black;
+    padding: 0 100px;
+}
+/*
+
+
+*/
+.sau {/*Estilos a*/
+    height: 20rem;
+    background: #1f1d1d
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+
+/*
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+.btn:hover {
+    background: none;
+}
+.btn-home {
+    display: flex;
+}
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*
+
+.price {
+    background: url(img/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+
+

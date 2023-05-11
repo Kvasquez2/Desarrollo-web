@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.head{
+    margin: 15px;
+    height: 50px;
+}
+.barra{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: #FC4F00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 50px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+ .navbar a:hover,
+ .navbar a.active{
+    color: #fff;
+    font-size: 16px;
+ }
+ .sau{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5vh;
+    width: 1345px;
+    height: auto;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+ .box-container .box {
+    height: 30rem;
+    width: 23rem;
+    background: white;
+    text-align: left;
+    border: 0.8 solid black;
+    border-radius: 1rem;
+    box-shadow: 0 .1rem .8rem ;
+    margin: 0.6rem;   
+}
+/*Estilos de la 125*/
+.ti-125{
+    margin: 15px;
+    margin-left: 75px;
+    margin-top: 30px;
+    color: #FC4F00;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 28px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.descrip-125 p {
+    display: flex;
+    color: black;
+    margin: 10px;
+    margin-left: 40px ;
+    margin-top: 35px;
+    justify-content: space-between;
+    width: 280px;
+    height: 120px;
+    font-family: 'Roboto', sans-serif;
+}
+.especi-125 h2 {
+    display: flex;
+    color: black;
+    margin-left: 40px ;
+    margin-top: 3px;
+    justify-content: space-between;
+    width: 280px;
+    height: 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image {
+    display: flex;
+    margin-top: auto;
+    height: 150px;
+    width: 200px;
+    margin-left: 85px;
+    transition: all 300ms;
+}.img-125:hover{
+    transform: scale(0.8);
+}
+/*Fin de los estilos de la 125*/
+
+/*Estilos de la 390*/
+.ti-390{
+    margin: 15px;
+    margin-left: 75px;
+    margin-top: 30px;
+    color: #FC4F00;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 28px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.descrip-390 p {
+    display: flex;
+    color: black;
+    margin: 10px;
+    margin-left: 40px ;
+    margin-top: 35px;
+    justify-content: space-between;
+    width: 280px;
+    height: 120px;
+    font-family: 'Roboto', sans-serif;
+}
+.especi-390 h2 {
+    display: flex;
+    color: black;
+    margin-left: 40px ;
+    margin-top: 3px;
+    justify-content: space-between;
+    width: 280px;
+    height: 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image {
+    display: flex;
+    margin-top: auto;
+    height: 150px;
+    width: 200px;
+    margin-left: 85px;
+    transition: all 300ms;
+}.img-390:hover{
+    transform: scale(0.8);
+}
+/*Fin de los estilos de la 390*/
+
+/*Estilos de la RC390*/
+.ti-RC390{
+    margin: 15px;
+    margin-left: 65px;
+    margin-top: 30px;
+    color: #FC4F00;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 28px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.descrip-RC390 p {
+    display: flex;
+    color: black;
+    margin: 10px;
+    margin-left: 32px ;
+    margin-top: 23px;
+    justify-content: space-between;
+    width: 300px;
+    height: 140px;
+    font-family: 'Roboto', sans-serif;
+}
+.especi-RC390 h2 {
+    display: flex;
+    color: black;
+    margin-left: 32px ;
+    margin-top: 3px;
+    justify-content: space-between;
+    width: 280px;
+    height: 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image {
+    display: flex;
+    margin-top: auto;
+    height: 150px;
+    width: 200px;
+    margin-left: 85px;
+    transition: all 300ms;
+}.img-RC390:hover{
+    transform: scale(0.8);
+}
+/*Fin de los estilos de la RC390*/
+
+/*Estilos de la 390 adventure*/
+.ti-390-adventure{
+    margin: 12px;
+    margin-left: 35px;
+    margin-top: 30px;
+    color: #FC4F00;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.descrip-390-adventure p {
+    display: flex;
+    color: black;
+    margin: 12px;
+    margin-left: 32px ;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+.especi-390-adventure h2 {
+    display: flex;
+    color: black;
+    margin-left: 32px ;
+    margin-top: 3px;
+    justify-content: space-between;
+    width: 280px;
+    height: 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image {
+    display: flex;
+    margin-top: auto;
+    height: 160px;
+    width: 200px;
+    margin-left: 85px;
+    transition: all 300ms;
+}.img-390-adventure:hover{
+    transform: scale(0.8);
+}
+/*Fin de los estilos de la 390 adventure*/
+
+/*Estilos de la 690 R*/
+.ti-690-R{
+    margin: 12px;
+    margin-left: 35px;
+    margin-top: 30px;
+    color: #FC4F00;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.descrip-690-R p {
+    display: flex;
+    color: black;
+    margin: 12px;
+    margin-left: 32px ;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+.especi-690-R h2 {
+    display: flex;
+    color: black;
+    margin-left: 32px ;
+    margin-top: 3px;
+    justify-content: space-between;
+    width: 280px;
+    height: 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image {
+    display: flex;
+    margin-top: auto;
+    height: 160px;
+    width: 200px;
+    margin-left: 85px;
+    transition: all 300ms;
+}.img-690-R:hover{
+    transform: scale(0.8);
+}
+/*Fin de los estilos de la 690*/
+
+/*Estilos de la 690 SMC R*/
+.ti-690-SMC{
+    margin: 12px;
+    margin-left: 35px;
+    margin-top: 30px;
+    color: #FC4F00;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.descrip-690-SMC p {
+    display: flex;
+    color: black;
+    margin: 12px;
+    margin-left: 28px ;
+    margin-top: 5px;
+    justify-content: space-between;
+    width: 330px;
+    height: 120px;
+    font-family: 'Roboto', sans-serif;
+}
+.especi-690-SMC h2 {
+    display: flex;
+    color: black;
+    margin-left: 32px ;
+    margin-top: 3px;
+    justify-content: space-between;
+    width: 280px;
+    height: 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image {
+    display: flex;
+    margin-top: auto;
+    height: 160px;
+    width: 200px;
+    margin-left: 85px;
+    transition: all 300ms;
+}.img-690-SMC:hover{
+    transform: scale(0.8);
+}
+/*Fin de los estilos 690 SMC R*/
+/*Estilos de la 790*/
+.ti-790{
+    margin: 12px;
+    margin-left: 35px;
+    margin-top: 30px;
+    color: #FC4F00;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.descrip-790 p {
+    display: flex;
+    color: black;
+    margin: 12px;
+    margin-left: 28px ;
+    margin-top: 5px;
+    justify-content: space-between;
+    width: 330px;
+    height: 120px;
+    font-family: 'Roboto', sans-serif;
+}
+.especi-790 h2 {
+    display: flex;
+    color: black;
+    margin-left: 32px ;
+    margin-top: 3px;
+    justify-content: space-between;
+    width: 280px;
+    height: 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.image {
+    display: flex;
+    margin-top: auto;
+    height: 160px;
+    width: 200px;
+    margin-left: 85px;
+    transition: all 300ms;
+}.img-790:hover{
+    transform: scale(0.8);
+}
+/*Fin de los estilos de la 790*/
+
+/*Estilos de la 890*/
+.ti-890{
+    margin: 12px;
+    margin-left: 35px;
+    margin-top: 30px;
+    color: #FC4F00;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.descrip-890 p {
+    display: flex;
+    color: black;
+    margin: 12px;
+    margin-left: 28px ;
+    margin-top: 5px;
+    justify-content: space-between;
+    width: 330px;
+    height: 120px;
+    font-family: 'Roboto', sans-serif;
+}
+.especi-890 h2 {
+    display: flex;
+    color: black;
+    margin-left: 32px ;
+    margin-top: 3px;
+    justify-content: space-between;
+    width: 280px;
+    height: 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.image {
+    display: flex;
+    margin-top: auto;
+    height: 160px;
+    width: 200px;
+    margin-left: 85px;
+    transition: all 300ms;
+}.img-890:hover{
+    transform: scale(0.8);
+}
+/*Fin de los estilos de la 890*/
+
+/*Estilos de la 1290*/
+.ti-1290{
+    margin: 12px;
+    margin-left: 35px;
+    margin-top: 30px;
+    color: #FC4F00;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.descrip-1290 p {
+    display: flex;
+    color: black;
+    margin: 12px;
+    margin-left: 28px ;
+    margin-top: 5px;
+    justify-content: space-between;
+    width: 330px;
+    height: 120px;
+    font-family: 'Roboto', sans-serif;
+}
+.especi-1290 h2 {
+    display: flex;
+    color: black;
+    margin-left: 32px ;
+    margin-top: 3px;
+    justify-content: space-between;
+    width: 280px;
+    height: 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.image {
+    display: flex;
+    margin-top: auto;
+    height: 160px;
+    width: 200px;
+    margin-left: 85px;
+    transition: all 300ms;
+}.img-1290:hover{
+    transform: scale(0.8);
+}
+/*Fin de los estilos de la 890*/

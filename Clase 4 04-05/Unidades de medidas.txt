@@ -1,0 +1,11 @@
+Unidades de medidas
+rem
+%
+px
+em
+Viewport width: vw = es igual a un tamaño de 1% en ancho
+viewport heigth: 
+
+
+Cuenta bancaria
+
