@@ -13,8 +13,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10px;
-    background: transparent;
+    padding: 15px 10px;
+    background: #FC4F00;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +24,7 @@
 .logo{
     position: relative;
     font-size: 30px;
-    color: #FC4F00;
+    color: #fff;
     text-decoration: none;
     font-weight: 600;
     margin-right: 50px;
@@ -40,7 +40,7 @@
 }
  .navbar a:hover,
  .navbar a.active{
-    color: #FC4F00;
+    color: #fff;
     font-size: 16px;
  }
 
@@ -96,7 +96,7 @@
     animation-delay: 2.5s;
     z-index: 2;
 }
-.botones a{
+.botones h1{
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -114,11 +114,11 @@
     transition: .5s;
  }
 
-.botones a:hover{
+.botones h1:hover{
     color: #081b29;
  }
 
-.botones a::before{
+.botones h1::before{
     content: '';
     position: absolute;
     top: 0;
@@ -130,7 +130,7 @@
     transition: .5s;
  }
 
-.botones a:hover::before{
+.botones h1:hover::before{
     width: 100%;
  }
   /*KEYFRAMES ANIMATION*/
