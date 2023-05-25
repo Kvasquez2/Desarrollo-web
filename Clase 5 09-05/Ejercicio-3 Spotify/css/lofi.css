@@ -12,6 +12,8 @@ html {
 
 body {
 	font-family: 'Rubik';
+	background: black;
+
 }
 
 .container {
@@ -104,7 +106,8 @@ body {
 .navbar {
 	background-color: #000;
 	color: #b3b3b3;
-	padding-top: 2.4rem;
+	padding-top: 6rem;
+	background: black;
 
 	grid-row: 1/3;
 	grid-column: 1/2;
@@ -115,8 +118,7 @@ body {
 
 	position: fixed;
 	width: 30rem;
-    height: 100%;
-	height: calc(100vh - 8rem);
+	height: calc(100vh 1rem);
 }
 
 .logo-svg {
@@ -196,10 +198,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	padding: 0 2.5rem;
-    background: black;
+	background: black;
 	gap: 2rem;
 	margin-bottom: 5rem;
-    height: 100%;
 }
 
 .btn-language {
@@ -232,7 +233,6 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 2rem;
-
 	margin-bottom: 3rem;
 }
 
@@ -240,44 +240,4 @@ body {
 	text-decoration: none;
 	color: #b3b3b3;
 	font-size: 1.2rem;
-}
-
-/**/
-.playlist{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 8%, rgba(9,9,121,0.9808298319327731) 39%, rgba(0,212,255,1) 100%);
-
-}
-.peacefull{
-    display: flex;
-    align-items: flex-end ;
-}
-.image-peacefull img{
-    width: 280px;
-}
-.info-peacefull{
-    margin-left: 40px;
-    color: #fff;
-}
-
-/*eSTILOS DE LA LISTA*/
-.lista-peacefull{
-    list-style: none;
-    justify-content: space-around;
-    display: flex;
-    margin: 10px;
-}
-.lista-peacefull li{
-    font-size: 30px;
-}
-/*Estilos para la cancion 1*/
-.name.img{
-    display: flex;
-}
-.image-c1 img{
-    width: 60px;
-    margin: 10px;
-}
-.name-c1{
-    margin-left: 40px;
 }
