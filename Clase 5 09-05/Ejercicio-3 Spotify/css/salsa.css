@@ -254,6 +254,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  
+  
 }
 
 .container-name-pop {
@@ -264,12 +266,12 @@ body {
 }
 .container-back {
   width: 100%;
-  background: rgb(16, 124, 152);
+  background: rgb(255, 126, 4);
   background: linear-gradient(
     90deg,
-    rgba(16, 124, 152, 1) 0%,
-    rgba(53, 184, 238, 1) 28%,
-    rgba(7, 89, 139, 1) 100%
+    rgba(255, 126, 4, 1) 0%,
+    rgba(255, 226, 0, 1) 22%,
+    rgba(255, 54, 4, 1) 85%
   );
 }
 .container-card-pop {
@@ -285,7 +287,6 @@ body {
 .container-img-pop img {
   width: 180px;
   height: 150px;
-  border-radius: 20px;
 }
 .container-info-pop {
   height: auto;
@@ -314,9 +315,6 @@ body {
   margin-top: 8px;
 }
 /*//todo Estilos de las canciones*/
-.cancion-pop li{
-  font-size: 14px;
-}
 #gred-canciones {
   display: grid;
   grid-template: repeat(1, 1fr) / repeat(5, 1fr);
@@ -341,11 +339,13 @@ body {
 .pop-name {
   width: 300px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .pop-day {
   width: 300px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .pop-time {
@@ -405,7 +405,6 @@ body {
 }
 .pop-name-1 img {
   width: 53px;
-  border-radius: 5px;
 }
 .pop-name-1 h2 {
   margin-left: 15px;
@@ -457,7 +456,6 @@ body {
 }
 .pop-name-2 img {
   width: 53px;
-  border-radius: 5px;
 }
 .pop-name-2 h2 {
   margin-left: 15px;
@@ -509,7 +507,6 @@ body {
 }
 .pop-name-3 img {
   width: 53px;
-  border-radius: 5px;
 }
 .pop-name-3 h2 {
   margin-left: 15px;
@@ -561,7 +558,6 @@ body {
 }
 .pop-name-4 img {
   width: 53px;
-  border-radius: 5px;
 }
 .pop-name-4 h2 {
   margin-left: 15px;
@@ -613,7 +609,6 @@ body {
 }
 .pop-name-5 img {
   width: 53px;
-  border-radius: 5px;
 }
 .pop-name-5 h2 {
   margin-left: 15px;

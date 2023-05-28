@@ -264,12 +264,12 @@ body {
 }
 .container-back {
   width: 100%;
-  background: rgb(16, 124, 152);
+  background: rgb(255, 154, 0);
   background: linear-gradient(
     90deg,
-    rgba(16, 124, 152, 1) 0%,
-    rgba(53, 184, 238, 1) 28%,
-    rgba(7, 89, 139, 1) 100%
+    rgba(255, 154, 0, 1) 23%,
+    rgba(254, 236, 16, 1) 50%,
+    rgba(255, 13, 13, 1) 100%
   );
 }
 .container-card-pop {
@@ -314,7 +314,7 @@ body {
   margin-top: 8px;
 }
 /*//todo Estilos de las canciones*/
-.cancion-pop li{
+.cancion-pop li {
   font-size: 14px;
 }
 #gred-canciones {
