@@ -264,12 +264,12 @@ body {
 }
 .container-back {
   width: 100%;
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   background: linear-gradient(
     90deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(107, 107, 107, 1) 54%,
-    rgba(255, 255, 255, 1) 85%
+    rgba(255, 255, 255, 1) 0%,
+    rgba(107, 107, 107, 1) 0%,
+    rgba(0, 0, 0, 1) 41%
   );
 }
 .container-card-pop {
