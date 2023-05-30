@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  background: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(181, 176, 176, 1) 51%
+  );
+}
+.login {
+  display: flex;
+  align-items: center; /*//todo Haiendo cambios de forma vertical*/
+  justify-content: center; /*//todo Alinear de mahenra horizontal*/
+  flex-direction: column; /*todo Alinea de arriba hacia abajo*/
+  padding: 0px 30px; /*//todo Margen de arriba y abajo*/
+  min-height: calc(100vh -200px);
+}
+.login-container {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /*//todo Color del form + trasparente*/
+  border: 2px solid white;
+  border-radius: 40px;
+  color: white;
+  padding: 60px 60px 40px;
+  min-height: 74vh;
+  width: 300px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around; /*todo Espacio a los elementos*/
+  flex-direction: column;
+}
+.login-container h2 {
+  font-size: 25px;
+  margin-top: -30px;
+}
+.login-container-form {
+  margin-top: -40px;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  height: 30px;
+  border: none;
+  font-size: 17px;
+}
+.login-container-remember label {
+  font-size: 14px;
+}
+.login-container-remember {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 18px;
+}
+.input {
+  background-color: transparent;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  height: 50px;
+}
+.login-container-remember a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 12px;
+}
+.login-container-social{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+}
+.img-a{
+    display: flex;
+    justify-content: center;
+    height: 45px;
+}
+.img-a img{
+    width: 6vh;
+    height: 6vh;
+}
+.login-container-social a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+}
+.login-container-social h1{
+    display: flex;
+    align-items: center;
+}
+.login-container-register{
+    margin-top: -40px;
+    font-size: 15px;
+}
+.login-container-register a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+}
+.footer{
+    margin: 3.24vh;
+    margin-left: 9.72vh;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+    font-weight: 700;
+}
