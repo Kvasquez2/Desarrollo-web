@@ -2,11 +2,13 @@ body {
   margin: 0;
   background: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: rgb(0, 0, 0);
+  background: rgb(255, 94, 0);
   background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 10%,
-    rgba(181, 176, 176, 1) 51%
+    309deg,
+    rgba(255, 94, 0, 1) 5%,
+    rgba(0, 0, 0, 1) 15%,
+    rgba(0, 0, 0, 1) 85%,
+    rgba(255, 94, 0, 1) 95%
   );
 }
 .login {
@@ -38,6 +40,7 @@ body {
 .login-container h2 {
   font-size: 25px;
   margin-top: -30px;
+  color: #ff5e00;
 }
 .login-container-form {
   margin-top: -40px;
@@ -61,6 +64,9 @@ body {
   justify-content: space-around;
   margin-top: 18px;
 }
+.active:hover{
+  text-decoration: underline;
+}
 .input {
   background-color: transparent;
   border-left: 0px;
@@ -74,55 +80,56 @@ body {
   padding: 0px 20px;
   height: 50px;
 }
-.login-container-remember a{
-    text-decoration: none;
-    color: #000;
-    font-weight: 600;
-    font-size: 12px;
+.login-container-remember a {
+  text-decoration: none;
+  color: #ff5e00;
+  font-weight: 600;
+  font-size: 12px;
 }
-.login-container-social{
-    margin-top: -20px;
-    display: flex;
-    flex-direction: column;
+.login-container-social {
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
 }
-.img-a{
-    display: flex;
-    justify-content: center;
-    height: 45px;
+.img-a {
+  display: flex;
+  justify-content: center;
+  height: 45px;
 }
-.img-a img{
-    width: 6vh;
-    height: 6vh;
+.img-a img {
+  width: 6vh;
+  height: 6vh;
 }
-.login-container-social a{
-    margin-left: 20px;
-    text-decoration: none;
-    font-size: 15px;
-    color: #fff;
-    font-weight: 600;
-    display: flex;
+.login-container-social a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
 }
-.login-container-social h1{
-    display: flex;
-    align-items: center;
+.login-container-social h1 {
+  display: flex;
+  align-items: center;
 }
-.login-container-register{
-    margin-top: -40px;
-    font-size: 15px;
+.login-container-register {
+  margin-top: -40px;
+  font-size: 15px;
 }
-.login-container-register a{
-    text-decoration: none;
-    color: #000;
-    font-weight: 600;
-    font-size: 16px;
+.login-container-register a {
+  text-decoration: none;
+  color: #ff5e00;
+  font-weight: 600;
+  font-size: 16px;
 }
-.footer{
-    margin: 3.24vh;
-    margin-left: 9.72vh;
+.footer {
+  margin: 3.24vh;
+  margin-left: 9.72vh;
 }
-.footer a{
-    text-decoration: none;
-    color: white;
-    padding: 0px 10px;
-    font-weight: 700;
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 10px;
+  font-weight: 700;
 }
+
