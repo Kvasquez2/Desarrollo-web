@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+    font-family: 'Noto Serif', serif;
+}
+header{
+    background: black;
+    color: #fff;
+    height: 4rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 5rem;
+}
+.info{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    list-style: none;
+    align-items: center;
+}
+.line{
+    border-left: 1px solid ;
+    padding: 0 1rem 0 1rem;
+}
+.buton{
+    padding-right: 4rem;
+}
+.btn1{
+    border: 1px solid;
+    padding: 0.6rem;
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 0.4rem;
+}
+.btn1:hover{
+    background: blue;
+    border: none;
+}
+.btn2{
+    border: 1px solid blue;
+    padding: 0.6rem;
+    background: blue;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 0.4rem ;
+}
+.btn2:hover{
+    background: #fff;
+    border: 1px solid #fff;
+    color: black;
+}
+.search{
+    background: gray;
+    color: white;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.search h1{
+    font-size: 35px;
+    padding-bottom: 1rem;
+}
+.search input{
+    padding: 0.6rem 30rem 0.6rem 1.2rem;
+    box-shadow: 0 0 16px 0 black;
+}
+.ad{
+    margin-bottom: 5rem;
+}
+
+.informa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-car{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 24.5rem;
+    height: 8rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.text img{
+    width: 80px;
+    border-radius: 10px ;
+}
+.text-info h1{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+.text-info p{
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+.text-info a{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+.text-info a:hover{
+    border: 1px solid black;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+footer{
+    background: gray;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.final{
+    flex-direction: column;
+    display: flex;
+    margin: 2rem;
+    margin-left: 10rem;
+    font-size: 1.2rem;
+}
+.final2{
+    flex-direction: column;
+    display: flex;
+    margin: 2rem;
+    font-size: 1.2rem;
+    margin-right: 8rem;
+}
+.final2 a{
+    padding: 4px;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+.final2 a:hover{
+    background: #fff;
+    color: #000;
+}
