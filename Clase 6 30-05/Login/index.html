@@ -1,53 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!--//todo Enlase para los estilos-->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <section class="login">
-      <section class="login-container">
-        <h2>INICIO DE SESION</h2>
-        <form class="login-container-form" id="login">
-          <input type="text" class="input" placeholder="Correo" id="email" />
-          <input type="password" class="input" placeholder="Contraseña" id="password"/>
-          <button class="button" id="button">Iniciar sesion</button>
-          <div class="login-container-remember">
-            <label for="">
-              <input checked="" type="checkbox" class="check" id="cbox1" value="checkbox" /> Recuerdame
-            </label>
-            <a class="active" href="">Olvide mi contraseña</a>
-          </div>
-        </form>
-        <!-- <section class="login-container-social">
-          <div class="img-a">
-            <img src="./img/github.png" alt="" />
-            <a href=""><h1>Iniciar seccion con github</h1></a>
-          </div>
-          <div class="img-a">
-            <img src="./img/google.png" alt="" />
-            <a href=""><h1>Iniciar seccion con google</h1></a>
-            
-          </div>
-          <div class="img-a">
-            <img src="./img/twitter.png" alt="" />
-            <a href=""><h1>Iniciar seccion con twitter</h1></a>
-          </div>
-        </section> -->
-        <p class="login-container-register">
-          No tiene ninguna cuenta <a class="active" href="">Registrarse</a>
-        </p>
-      </section>
-    </section>
-    <footer class="footer">
-      <a class="active" href="">Terminos de uso</a>
-      <a class="active" href="">Declaraciones de privacidad</a>
-      <a class="active" href="">Centro de ayuda</a>
-    </footer>
-    <script src="login.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="box">
+    <span class="borderLine"></span>
+    <form>
+      <h2>Sign in</h2>
+      <div class="inputBox">
+        <input type="text" required="required">
+        <span>Username</span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="password" required="required">
+        <span>Password</span>
+        <i></i>
+      </div>
+      <div class="links">
+        <a href="#">Forgot Password</a>
+        <a href="#">Signup</a>
+      </div>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+</body>
 </html>
