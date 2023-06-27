@@ -1,0 +1,11 @@
+*{ /*//todo Se usa para quitarle los espacios que tiene como predeterminado en el navegador*/
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #fff; /*//todo Se usa para ponerle un color al fonto de la pagina web*/
+    color: #000;/*//todo Se usa para ponerle un color a la letra por aparte dadole un diseño mas estetico*/
+}
+header{ /*//todo Si llamanos la etiqueta complea con todo lo que contenga adentro en el html*/
+    display: flex; /*//todo El Display nos deja */
+}

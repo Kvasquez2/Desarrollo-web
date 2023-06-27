@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CompraCamisas.css" />
+  </head>
+  <body>
+    <header class="barra">
+        <h1>WorkShop</h1>
+        <nav>
+            <ul>
+                <li>inicio</li>
+                <li>Tienda</li>
+                <li>Ubicacion</li>
+                <li>Carrito</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="inCompra">
+      <div class="inicompra">
+        <h1>Calcular compra de camisas</h1>
+
+        <label for="">¿ Cuantas camisas desea comprar ?</label>
+        <input type="number" id="cantidadInput" placeholder="1" />
+        <label for="">Digite el valor de la camisas</label>
+        <input type="number" id="valorInput" placeholder="10000"/>
+        <button onclick="CalcularCompra()">Calcular</button>
+        <p id="totalResultado"></p>
+        <p id="totalCompraResultado"></p>
+      </div>
+    </section>
+
+    <script src="ComprarCamisas.js"></script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
+.contect{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+}
+.cart{
+    padding: 4rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart h1{
+    font-size: 35px;
+    margin-bottom: 2rem;
+}
+.nums1{
+    display: flex;
+}
+.nums1 label{
+    font-size: 20px;
+}
+.nums1 input{
+    margin-left: 2rem;
+    font-size: 15px;
+    width: 150px;
+}
+.nums2{
+    display: flex;
+    margin-top: 1rem;
+}
+.nums2 label{
+    font-size: 20px;
+}
+.nums2 input{
+    margin-left: 2rem;
+    font-size: 15px;
+    width: 150px;
+}
+.buton{
+    padding: 1rem;
+    margin: 2rem;
+    margin-bottom: 1rem;
+    background: transparent;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+}

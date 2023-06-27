@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: gray;
+}
+.hi{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40rem;
+}
+.hody{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2rem;
+}
+.hody h1{
+    font-size: 40px;
+    margin-bottom: 1.5rem;
+}
+.hody label{
+    font-size: 23px;
+    margin-bottom: 0.8rem;
+}
+.hody input{
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+.hody button{
+    background: transparent;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.hody p{
+    font-size: 18px;
+}
